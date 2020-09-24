@@ -17,9 +17,13 @@ tasks = [
     }
 ]
 
-@app.route('/todo/api/v1.0/tasks', methods=['GET'])
-def get_tasks():
-    return jsonify({'tasks': tasks})
+@app.route('/api/v1/objective_function', methods=['GET'])
+def get_objective_function():
+    return jsonify({'objective_function': 1})
+
+@app.rout('/api/v1/algorithm', methods=['GET'])
+def get_algorithm():
+    return jsonify({'alg': 1})
 
 if __name__ == '__main__':
     app.run(debug=True)

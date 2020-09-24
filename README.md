@@ -1,5 +1,5 @@
 # imgamo-app
 
-Author: Paweł Jarosz
+Author, developer: Paweł Jarosz
 
-Developer: Paweł Kisielewicz
+Co-author, developer: Paweł Kisielewicz
